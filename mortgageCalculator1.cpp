@@ -33,11 +33,11 @@ int main()
      // finally calculating the monthlyvpayment
      monthly_payment = numerator / denominator;
      // printing the formatted result
-     cout << "Amount borrowed (programmer input) = "
-          << "$" << amount << endl;
+     cout << "Amount borrowed (programmer input) = ";
+     cout << "$" << amount << endl;
      cout << "Annual interest rate (programmer input) = " << annual_percent << "%" << endl;
      cout << "Payback period (programmer input) = " << years << " Years" << endl;
-     cout << "Monthly payment (Calculated output) = "
-          << "$" << fixed << setprecision(2) << monthly_payment << endl;
+     cout << "Monthly payment (Calculated output) = ";
+     cout << "$" << fixed << setprecision(2) << monthly_payment << endl;
      return 0;
 }
